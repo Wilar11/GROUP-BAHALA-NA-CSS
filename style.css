@@ -1,0 +1,75 @@
+
+* {
+text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #FDF6E4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+  background-size: 40px 40px; /* adjust size of grid squares */
+}
+
+
+.navbar{
+background:
+rgb(42, 219, 213);
+font-family:
+calibri;
+padding-right:
+15px; padding-left:
+15px;
+}
+.navdiv{
+display: flex;
+align-items:center;
+justify-content:
+space-between;
+}
+
+logo a {
+font-size: 35px; font-weight: 600; color: rgba(68, 54, 54, 0.16);
+}
+
+li{
+List-style: none; display: inline-block;
+}
+li a{
+color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+
+header h1 {
+  font-variant: small-caps; 
+}
+
+h2 {
+  font-family: "Trebuchet MS", sans-serif;
+  margin-bottom: 10px;
+}
+
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  background-color: #f0f8ff;
+}
+
+
+#contact {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: auto;
+}
