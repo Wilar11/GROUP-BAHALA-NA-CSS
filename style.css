@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -232,4 +231,8 @@ form input, form textarea {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 .no{color: red;}
+=======
+}
+>>>>>>> bc2793fad32fbc2b216e33390cb03490536d3263
