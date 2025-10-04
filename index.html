@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bahala na Portfolio</title>
+ <link rel="stylesheet" href="style.css">
 
+  <style>
+    .highlight {
+      color: #c1677b;
+      font-weight: bold;
+    }
+    h2 {
+      font-family: "Trebuchet MS", sans-serif;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo"><a href="#">Group Bahala Na</a></div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#comments">Comments</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hi, We’re <span class="highlight">Group Bahala Na</span></h2>
+      <h1 style="color:#992c45; text-decoration:underline;"> 
+        WEB DESIGNERS
+      </h1>
+      <p>We are passionate students learning web design and development, 
+         exploring new technologies, and building creative projects.</p>
+      <div class="buttons">
+        <a href="#projects" class="btn">See Projects</a>
+        <a href="#contact" class="btn secondary">Hire Us</a>
+      </div>
+  </section>
+
+  <hr width = 100%/>
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Hello! We are <span class="highlight">Group Bahala Na</span>. 
+       We enjoy learning new technologies and improving our skills through projects
+       that combine creativity and functionality.</p>
+  </section>
+
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-card">
+    
+      <h3>Dayag,Arwildan A.❣️</h3>
+      <p>Hi! I’m Arwil. I enjoy designing cute websites and learning new coding skills.</p>
+    </div>
+
+    <div class="about-card">
+      <h3>Fernandez Rhian🖤</h3>
+      <p> Hi! It's me Rhian Fernandez. I'm a new developer with no experience. Practicing to create a website and improve my skills.</p>
+    </div>
+
+
+    <div class="about-card">
+      
+      <h3>Maglipon, Jessica🤕</h3>
+      <p>Hello everyone, I'm still a newbie with this coding but I'm learning a lot. </p>
+    </div>
+  </div>
+</section>
+
+  
+  <section class="projects" id="projects">
+    <h2>Our Projects</h2>
+    <div class="project-card">
+      <h3>Project 1</h3>
+      <p>Project demonstrating <b>HTML</b> and <b>CSS</b> basics.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 2</h3>
+      <p>Webpage showcasing our vlog.</p>
+      </div>
+      <div class="project-card">
+      <h3>Project 3</h3>
+      <p>Webpage for a small business.</p>
+    </div>
+  </section>
+
+<hr width="100%"/>
+  <form align ="center" id="comments">
+    <h2>Leave a Comment</h2>
+    <label for="name">FULL NAME:</label><br>
+    <input id="name" name="name" type="text" required><br>
+
+    <label for="email">EMAIL ADDRESS:</label><br>
+    <input id="email" name="email" type="email" required><br>
+
+    <label for="phone">PHONE NUMBER:</label><br>
+    <input id="phone" name="phone" type="tel" required><br>
+
+    <label for="message">MESSAGE:</label><br>
+    <textarea id="message" name="message"></textarea><br>
+
+    <input type="submit" value="Send" class="submit"><br>
+  </form>
+
+<div class="icons">
+  <span><ion-icon name="logo-facebook"></ion-icon></span>
+  <span><ion-icon name="logo-instagram"></ion-icon></span>
+  <span><ion-icon name="logo-twitter"></ion-icon></span>
+  <span><ion-icon name="logo-tiktok"></ion-icon></span>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <footer id="contact">
+    <p>Contact us : group_bahala_na@misskonasya.com</p>
+  
+  </footer>
+</body>
+</html>
