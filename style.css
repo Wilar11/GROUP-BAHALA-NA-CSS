@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar 
+{ background-color: #ffffff; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+font-family: "Poppins", sans-serif; 
+position: sticky; top: 0; z-index: 10; } 
+
+.container { display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 40px; } 
+
+.logo a { 
+    font-size: 24px; 
+    font-weight: 700; color: #277eb4; } 
+
+
+.nav-links li { list-style: none; 
+    display: inline-block; margin-left: 25px; } 
+
+.nav-links a { color: #34495e; 
+    font-weight: 500; 
+    transition: color 0.3s ease; } 
+
+.nav-links a:hover { color: #277eb4; } 
+
+.hero { text-align: center; 
+    padding: 100px 20px; 
+    background: linear-gradient(120deg, #eaf3ff, #ffffff); 
+    font-family: "Verdana", sans-serif; } 
+
+.hero .subtitle { color: #555; margin: 10px 0 30px; 
+    font-style: italic; 
+    font-size: 18px; } 
+
+.btn { display: inline-block; 
+    background-color: #3862e0; 
+    color: white; 
+    padding: 12px 24px; 
+    border-radius: 8px; 
+    text-transform: uppercase; 
+    font-weight: bold; transition: 0.3s; }
+
+ .btn:hover { background-color: #2b4cad; 
+    transform: scale(1.05); } 
+
+.about { background-color: #f6faff; 
+    padding: 80px 20px; text-align: center; } 
+
+.about h2 { color: #2c3e50; font-size: 28px; 
+    margin-bottom: 20px; } 
+
+.about p { color: #555; font-size: 17px; 
+    max-width: 700px; margin: 10px auto; 
+    line-height: 1.6; } 
+
+.highlight { color: #e0385f; font-weight: bold; 
+    text-transform: capitalize; } 
+
+.projects { padding: 80px 20px; text-align: center; 
+    background: #ffffff; } 
+
+.project-grid { display: flex; justify-content: center; 
+    flex-wrap: wrap; gap: 25px; margin-top: 30px; }
+
+ .project-card { background: #f1f5ff; 
+    border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    padding: 25px; width: 280px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; } 
+
+.project-card:hover { transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); } 
+
+.project-card h3 { color: #3862e0;
+     margin-bottom: 10px; 
+    font-weight: bold; } 
+
+.contact { background-color: #eef2fa; 
+    text-align: center; 
+    padding: 60px 20px; } 
+
+.contact h2 { margin-bottom: 15px; 
+    color: #2c3e50; } 
+
+.email { color: rgb(56, 98, 224); font-weight: bold; 
+    text-shadow: 1px 1px 2px #aaa; } 
+
+footer { background-color: #3862e0; color: white; 
+    text-align: center; padding: 15px; 
+    font-family: "Arial", sans-serif; 
+    letter-spacing: 0.5px; }

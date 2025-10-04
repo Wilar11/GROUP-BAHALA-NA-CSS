@@ -1,68 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio (Dayag)</title>
-   <style type= "text/css">
-*{ 
-   text-decoration: none;
-}
-
-.navbar{
-    background: #add8e6; font-family: calibri; 
-
-}
-.navdiv{
-    display:flex; align-items: center; justify-content: space-between;
-}
-
-.logo a{
-font-size: 35px;font-weight: 600; color:#3862e0
-}
-
-li{
-    list-style: none; display: inline-block;
-}
-
-li a{
-
-color; #3862e0; font-size: 18px; font-weight: bold; margin-right: 25px;
-
-}
-
-button{
-
-background-color: #c0c0c0; margin-left: 10px; border-radius: 10px; padding: 10px; width:90px
-
-}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Group Bahala Na (dayag)</title>
+  <link rel="stylesheet" href="style.css" />
 
 
-</style>
+  <style>
+ 
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
+
 <body>
-<nav class="navbar">
-<div class = "navdiv">
-    <div class="logo"><a href = "#">Group bahala na (Arwil)</a></div>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Contact</a></li>
+  
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><a href="#">Bahala Na</a></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ 
+  <section id="home" class="hero">
+    <p style="color:#34495e; font-weight:bold;">Hi! We’re</p> <!-- Inline CSS -->
+    <h1>GROUP BAHALA NA</h1>
+    <p class="subtitle">Students Exploring Web Design</p>
+    <a href="#projects" class="btn">View Our Work</a>
+  </section>
+
+  <section id="about" class="about">
+    <div class="content">
+      <h2>About Us</h2>
+      <p>
+        We’re a group of students passionate about learning Web Design.
+      </p>
+      <p class="highlight">Members: Dayag,Fernandez,Maglipon</p>
+    </div>
+  </section>
+
+ 
+  <section id="projects" class="projects">
+    <h2>Our Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Webpage</h3>
+        <p>Designing a web page using html and css for vlogs.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio</h3>
+        <p>Website portfolio for our group.</p>
+      </div>
+    </div>
+  </section>
 
 
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <span class="email">group_bahala_na@misskonasya.com</span></p>
+  </section>
 
-
-
-
-
-</ul>
-
-</div>
-
-
-
-
-
-</nav>
+  <footer>
+    <p>© 2025 Group Bahala Na</p>
+  </footer>
 </body>
 </html>
