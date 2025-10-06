@@ -81,20 +81,7 @@ body {
   background-color: #69a3cf;
   transform: scale(1.05);
 }
-.socials {
-  margin-top: 25px;
-}
 
-.socials a {
-  margin-right: 15px;
-  color: #111;
-  font-size: 22px;
-  transition: color 0.3s;
-}
-
-.socials a:hover {
-  color: 	#69a3cf;
-}
 .about{
   padding: 80px 8%;
   font-family: "Georgia", serif;
