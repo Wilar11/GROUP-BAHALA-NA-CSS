@@ -45,6 +45,7 @@ li a {
   font-size: 18px;
   font-weight: bold;
   margin-right: 25px;
+  text-transform: uppercase;
 }
 li a:hover {
   color: #ffd700;
